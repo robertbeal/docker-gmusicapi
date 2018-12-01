@@ -1,0 +1,8 @@
+services:
+  - docker
+
+before_install:
+  - docker build -t robertbeal/gmusicapi .
+
+script:
+  - docker run --rm robertbeal/gmusicapi gmsync --help
