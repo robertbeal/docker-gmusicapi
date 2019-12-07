@@ -14,7 +14,7 @@ RUN apk add --no-cache --virtual=build-dependencies \
     su-exec \
   && python3 -m pip --no-cache-dir install \
     gmusicapi \
-    git+https://github.com/thebigmunch/gmusicapi-scripts \
+    google-music-scripts\
   && apk del --purge build-dependencies \
   && rm -rf /tmp/* \
   && addgroup -S gmusicapi \
