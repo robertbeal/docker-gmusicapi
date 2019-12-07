@@ -12,7 +12,8 @@ RUN apk add --no-cache --virtual=build-dependencies \
     libxml2 \
     python3 \
     su-exec \
-  && python3 -m pip --no-cache-dir install \
+  && python3 -m pip --no-cache-dir install --upgrade \
+    pip \
     gmusicapi \
     google-music-scripts\
   && apk del --purge build-dependencies \
