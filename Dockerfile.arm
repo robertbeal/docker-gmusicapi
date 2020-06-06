@@ -11,6 +11,7 @@ RUN apk add --no-cache --virtual=build-dependencies \
     ffmpeg \
     libxml2 \
     python3 \
+    py3-pip \
     su-exec \
   && python3 -m pip --no-cache-dir install \
     gmusicapi \
