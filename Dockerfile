@@ -4,6 +4,7 @@ LABEL maintainer="github.com/robertbeal"
 RUN apk add --no-cache --virtual=build-dependencies \
     build-base \
     git \
+    libffi-dev \
     libxml2-dev \
     libxslt-dev \
     python3-dev \
