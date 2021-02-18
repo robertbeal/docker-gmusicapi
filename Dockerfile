@@ -1,4 +1,4 @@
-FROM alpine:3.10.3
+FROM alpine:3.13.2
 LABEL maintainer="github.com/robertbeal"
 
 RUN apk add --no-cache --virtual=build-dependencies \
