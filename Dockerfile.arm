@@ -1,4 +1,4 @@
-FROM arm32v6/alpine:3.10.3
+FROM arm32v6/alpine:3.13.2
 LABEL maintainer="rob@kohi.uk"
 
 RUN apk add --no-cache --virtual=build-dependencies \
